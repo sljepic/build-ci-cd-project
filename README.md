@@ -1,1 +1,1 @@
-# build-ci-cd-project
+[![Python application test with Github Actions](https://github.com/sljepic/build-ci-cd-project/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/sljepic/build-ci-cd-project/actions/workflows/pythonapp.yml)
