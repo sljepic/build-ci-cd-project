@@ -21,7 +21,30 @@ Finally, this project is documented in two steps:
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+Instructions for running the Python project:
+
+* Firstly, navigate to your Github page and press new repository to add your new repository.
+* Navigate to your Azure portal and launch Cloud Shell
+* Generate ssh keys with command:
+    *ssh-keygen -t rsa* 
+* Get your public key value
+    *cat <path_to_home_directory>/.ssh/id_rsa.pub*
+* Copy your key to *settings -->  SSH and GPG keys* on your Github account
+* Position yourself to chosen workspace directory and clone the repository:
+    *git clone git@github.com:owner/repository.git*
+* Move to repository directory
+* Add scaffolding code, including Makefile, requirements.txt, python application script, python tests script
+* Run *make all* to install dependencies, apply linter, build and test code
+* Create the Python Virtual Environment by using following commands:
+    *python3 -m venv ~/.myrepo*
+    *source ~/.myrepo/bin/activate*
+* Configure Github actions workflow in *pythonapp.yml* file
+* Navigate to Actions tab and verify remote tests execution
+* Create a Status Badge and add its markdown to README.md
+
+
+Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+
 
 * Project running on Azure App Service
 
