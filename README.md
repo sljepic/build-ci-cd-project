@@ -82,7 +82,7 @@ Screenshots:
 
 * [Running Azure App Service from Azure Pipelines automatic deployment](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/azure_pipelines_deploy_azure_web_app.PNG)
 
-* ]Successful prediction from deployed flask app in Azure Cloud Shell](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/succesfull_prediction.PNG)
+* [Successful prediction from deployed flask app in Azure Cloud Shell](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/succesfull_prediction.PNG)
 
 * Output of streamed log files from deployed application
 
