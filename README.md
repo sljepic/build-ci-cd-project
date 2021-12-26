@@ -52,7 +52,18 @@ Instructions for running the Python project:
 * Try to execute prediction on webapp:
       *chmod +x make_predict_azure_app.sh*
       "./make_predict_azure_app.sh*
-
+* Login to your Azure DevOps organization (dev.azure.com)
+* Create a new project with optional name
+* Open project Settings --> Service connections (under Pipelines tab) and press Createe service connection
+* Chose Azure Resource Manager and pres next, in a new tab chose Service principal
+* When your Azure Subscription is successfully loaded, give a name to your connection
+* On a starting sidebar press Create Pipeline and chose GitHub as a code source
+* Select your repository and chose Python to Linux Web App on Azure
+* Save and Run to commit azure-pipelines.yml file on your repository
+* Give authorization to execute your Webapp Deployment job
+* If the workflow has finished successfully, inspect logs by using following command:
+      *az webapp log tail*
+      
 
 
 Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
