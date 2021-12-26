@@ -84,11 +84,11 @@ Screenshots:
 
 * [Successful prediction from deployed flask app in Azure Cloud Shell](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/succesfull_prediction.PNG)
 
-* Output of streamed log files from deployed application
+* [Output of streamed log files from deployed application](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/webapp_logs_displayed.PNG)
 
 * [Locust load testing results](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/locust_output.PNG)
 
->
+
 
 ## Enhancements
 
