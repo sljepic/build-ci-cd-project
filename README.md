@@ -76,22 +76,17 @@ Screenshots:
 
 * [Passing tests that are displayed after running the `make all` command from the `Makefile`](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/make_all_test_success.PNG)
 
-* Output of a test run
+* [Output of a test run](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/github_actions_pr.PNG)
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* [Successful deploy of the project in Azure Pipelines](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/azure_pipelines.PNG) 
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+* [Running Azure App Service from Azure Pipelines automatic deployment](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/azure_pipelines_deploy_azure_web_app.PNG)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+* ]Successful prediction from deployed flask app in Azure Cloud Shell](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/succesfull_prediction.PNG)
 
 * Output of streamed log files from deployed application
+
+* [Locust load testing results](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/locust_output.PNG)
 
 >
 
