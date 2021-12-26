@@ -41,6 +41,18 @@ Instructions for running the Python project:
 * Configure Github actions workflow in *pythonapp.yml* file
 * Navigate to Actions tab and verify remote tests execution
 * Create a Status Badge and add its markdown to README.md
+* Add a flask starter code to your repository
+* Add commands.sh bash file that contains azure command that is used to deploy a web application:
+     *az webapp up --location westeurope -n <webapp_name>*
+* Set name of created webapp on POST command line in *make_predict_azure_app.sh* file:  *X POST https://<webapp_name>.azurewebsites.net:$PORT/predict*
+* Execute commands.sh bash script:
+      *chmod +x commands.sh*
+      *./commands.sh
+* Open https://<webapp_name>.azurewebsites.net to open your web application
+* Try to execute prediction on webapp:
+      *chmod +x make_predict_azure_app.sh*
+      "./make_predict_azure_app.sh*
+
 
 
 Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
