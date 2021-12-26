@@ -17,9 +17,8 @@ Finally, this project is documented in two steps:
 * A link to a spreadsheet that includes the original and final project plan>: https://docs.google.com/spreadsheets/d/1M0sbWKSYJlzaEH8bg0qZeEOm8pyYqbTUzcHVhljJldw/edit#gid=1348135932
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+  
+* [Architectural Diagram (Shows how key parts of the system work)](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/architecture_diagram.png)
 
 Instructions for running the Python project:
 
@@ -63,17 +62,19 @@ Instructions for running the Python project:
 * Give authorization to execute your Webapp Deployment job
 * If the workflow has finished successfully, inspect logs by using following command:
       *az webapp log tail*
-      
+* Create a locustfile.py that has post and get functions
+* Execute command:
+      *locust -f locustfile.py*
+* Connect to *localhost:8089* and add number of users
+* Observe load test results for get and post requests
 
+Screenshots:
 
-Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+* [Project running on Azure App Service](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/webappdeployed.PNG)
 
+* [Project cloned into Azure Cloud Shell](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/cloned_project.PNG)
 
-* Project running on Azure App Service
-
-* Project cloned into Azure Cloud Shell
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* [Passing tests that are displayed after running the `make all` command from the `Makefile`](https://github.com/sljepic/build-ci-cd-project/blob/main/screenshots/make_all_test_success.PNG)
 
 * Output of a test run
 
